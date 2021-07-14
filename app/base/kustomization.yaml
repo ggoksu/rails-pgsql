@@ -1,4 +1,4 @@
-resource:
+resources:
 - dc-db.yaml
 - dc-app.yaml
 - svc-db.yaml
