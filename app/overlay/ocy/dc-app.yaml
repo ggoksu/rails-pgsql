@@ -1,6 +1,6 @@
 kind: DeploymentConfig
 apiVersion: apps.openshift.io/v1
 metadata:
-  name: rails-pgsql-persistent
+  name: ocy-rails-pgsql-persistent
 spec:
   replicas: 0
