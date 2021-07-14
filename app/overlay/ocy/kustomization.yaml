@@ -1,5 +1,5 @@
 bases:
-- ../base
+- ../../base
 namePrefix: ocy-
 patchesStrategicMerge:
 - dc-app.yaml
