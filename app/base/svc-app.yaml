@@ -1,0 +1,17 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: rails-pgsql-persistent
+  namespace: gokhantst
+  labels:
+    app: rails-pgsql-persistent-storageclass
+spec:
+  ports:
+    - name: web
+      protocol: TCP
+      port: 8080
+      targetPort: 8080
+  selector:
+    name: rails-pgsql-persistent
+  type: ClusterIP
+  sessionAffinity: None

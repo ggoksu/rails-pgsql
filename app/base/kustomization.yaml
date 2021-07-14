@@ -1,0 +1,7 @@
+resource:
+- dc-db.yaml
+- dc-app.yaml
+- svc-db.yaml
+- svc-app.yaml
+- secret.yaml
+- route.yaml

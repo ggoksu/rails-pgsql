@@ -1,0 +1,14 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: rails-pgsql-persistent
+  namespace: gokhantst
+  labels:
+    app: rails-pgsql-persistent-storageclass
+spec:
+  host: rails-pgsql-persistent-gokhantst.apps.ocx.lp.int
+  to:
+    kind: Service
+    name: rails-pgsql-persistent
+    weight: 100
+  wildcardPolicy: None
