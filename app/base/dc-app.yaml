@@ -11,7 +11,7 @@ spec:
     recreateParams:
       timeoutSeconds: 600
       pre:
-        failurePolicy: Abort
+        failurePolicy: Retry
         execNewPod:
           command:
             - ./migrate-database.sh
