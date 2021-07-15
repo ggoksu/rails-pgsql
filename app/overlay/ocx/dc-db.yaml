@@ -4,4 +4,4 @@ metadata:
   name: postgresql
   namespace: gokhantst
 spec:
-  replicas: 1
+  replicas: 0

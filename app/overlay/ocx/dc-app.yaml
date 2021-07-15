@@ -4,4 +4,4 @@ metadata:
   name: rails-pgsql-persistent
   namespace: gokhantst
 spec:
-  replicas: 1
+  replicas: 0
