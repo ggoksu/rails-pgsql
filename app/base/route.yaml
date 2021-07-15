@@ -6,7 +6,6 @@ metadata:
   labels:
     app: rails-pgsql-persistent-storageclass
 spec:
-  host: rails-pgsql-persistent-gokhantst.apps.ocx.lp.int
   to:
     kind: Service
     name: rails-pgsql-persistent
