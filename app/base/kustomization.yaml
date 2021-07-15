@@ -1,4 +1,5 @@
 resources:
+- pvc.yaml
 - dc-db.yaml
 - dc-app.yaml
 - svc-db.yaml
