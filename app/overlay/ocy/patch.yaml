@@ -1,2 +1,2 @@
 - op: remove
-  path: "/spec/strategy/recreateParams"
+  path: "/spec/strategy/recreateParams/pre"
