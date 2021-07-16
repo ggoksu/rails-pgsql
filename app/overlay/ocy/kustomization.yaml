@@ -4,10 +4,10 @@ patchesStrategicMerge:
 - dc-app.yaml
 - dc-db.yaml
 patches:
-  - target:
-      group: apps
-      version: v1
-      kind: DeploymentConfig
-      namespace: gokhantst
-      name: rails-pgsql-persistent
-    path: patch.yaml
+- path: patch.yaml
+  target:
+    group: apps.openshift.io
+    version: v1
+    kind: DeploymentConfig
+    mespace: gokhantst
+    name: rails-pgsql-persistent
