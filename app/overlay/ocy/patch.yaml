@@ -1,2 +1,2 @@
 - op: remove
-  path: "/spec/stragtegy"
+  path: "/spec/strategy/recreateParams"
