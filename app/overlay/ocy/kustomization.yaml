@@ -9,5 +9,5 @@ patches:
     group: apps.openshift.io
     version: v1
     kind: DeploymentConfig
-    mespace: gokhantst
+    namespace: gokhantst
     name: rails-pgsql-persistent
